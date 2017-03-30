@@ -43,7 +43,7 @@ function configure(api) {
   api.use('random');
   api.use('check');
   api.use('session');
-  api.use('reload');
+  // api.use('reload');
   api.use('mongo');
   api.use('tracker');
   api.use('localstorage');
